@@ -13,7 +13,7 @@ const EventDetails = () => {
 
       let response = await axios.put(`/events/${event.id}`,{}, { headers: headers })
 
-      
+
     } catch (error) {
 
     }

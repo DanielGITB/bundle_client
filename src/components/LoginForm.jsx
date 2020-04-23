@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-
-import auth from '../module/auth'
-
 import { Button, Form } from "semantic-ui-react";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
@@ -46,5 +43,4 @@ const LoginForm = (props) => {
     </>
   );
 };
-
 export default LoginForm;

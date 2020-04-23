@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Button, Form } from "semantic-ui-react";
-import { useDispatch, useSelector } from "react-redux";
-import axios from "axios";
+import { useDispatch } from "react-redux";
 import  auth  from '../modules/auth'
 
 const LoginForm = (props) => {
